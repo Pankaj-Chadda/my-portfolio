@@ -5,7 +5,7 @@ import HeroImage from "../../assets/heroImage.jpg";
 const handleDownload = () => {
   const link = document.createElement("a");
   window.open(
-    "https://drive.google.com/drive/folders/1jyZXjOFZeeuvbf8cEWgLa_RDvEI2SojJ?usp=drive_link"
+    "https://drive.google.com/drive/folders/1jyZXjOFZeeuvbf8cEWgLa_RDvEI2SojJ?usp=sharing"
   );
   document.body.appendChild(link);
   link.click();
