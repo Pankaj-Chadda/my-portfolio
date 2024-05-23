@@ -14,6 +14,7 @@ nav .title {
   margin: 1rem;
   font-weight: bold;
   color: #0c0c92;
+  font-family: cursive;
 }
 nav ul {
   display: flex;

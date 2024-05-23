@@ -4,8 +4,9 @@ import HeroImage from "../../assets/heroImage.jpg";
 
 const handleDownload = () => {
   const link = document.createElement("a");
-  link.href = "/resume.pdf"; // Replace with the path to your resume file
-  link.download = "resume.pdf"; // Replace with your desired file name
+  window.open(
+    "https://drive.google.com/drive/folders/1jyZXjOFZeeuvbf8cEWgLa_RDvEI2SojJ?usp=drive_link"
+  );
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
@@ -17,7 +18,7 @@ const Home = () => {
         <h2 className="title">I am a Web Developer</h2>
         <p className="text">
           I have 1.5 years of experience working in web development projects. I
-          love to work on web application using technologies like React and
+          love to work on web applications using technologies like React and
           Django .
         </p>
         <div className="resume">
