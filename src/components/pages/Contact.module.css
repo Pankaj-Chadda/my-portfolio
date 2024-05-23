@@ -1,0 +1,159 @@
+.contact-cont {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  width: 90%;
+  height: 80%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #300d52;
+  border-radius: 20px;
+  background-color: #afafaf;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.main-head {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: #3b1707;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+input,
+textarea {
+  width: 80%;
+  height: 2.2rem;
+  margin: 3px auto;
+  border: 2px solid black;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+input {
+  height: 40px;
+}
+textarea {
+  height: 50%;
+}
+button {
+  margin: 3px auto;
+  width: 35%;
+  height: 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  background-color: #1b40a5;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #2ba8e2;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
+.linkedin {
+  height: 50px;
+  width: 50px;
+  color: #0a66c2;
+}
+.github {
+  height: 50px;
+  width: 50px;
+  color: #181717;
+}
+@media screen and (min-width: 600px) {
+  input,
+  textarea {
+    width: 400px;
+  }
+
+  button {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contact-cont {
+    width: 70%;
+  }
+  input,
+  textarea {
+    width: 450px;
+  }
+  button {
+    width: 150px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .contact-cont {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 50%;
+    margin: 15px auto;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #300d52;
+    border-radius: 20px;
+    background-color: #afafaf;
+    font-weight: bold;
+  }
+  .main-head {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #3b1707;
+  }
+  .forms {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  input,
+  textarea {
+    width: 60%;
+    height: 2.2rem;
+    margin: 3px auto;
+    border: 2px solid black;
+    border-radius: 12px;
+    text-align: center;
+  }
+  textarea {
+    height: 50%;
+  }
+  button {
+    margin: 3px auto;
+    width: 20%;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: #1b40a5;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #2ba8e2;
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+  }
+  .linkedin {
+    height: 50px;
+    width: 50px;
+    color: #0a66c2;
+  }
+  .github {
+    height: 50px;
+    width: 50px;
+    color: #181717;
+  }
+}

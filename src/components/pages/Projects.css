@@ -1,0 +1,123 @@
+/*Base Styles*/
+.main-head {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: #3b1707;
+}
+.projects-cont {
+  display: flex;
+  flex-direction: column; /* Stack the children vertically */
+  width: 80%;
+  /* border: 2px solid red; */
+  row-gap: 10px;
+  margin: auto;
+
+  /* margin: ; */
+}
+.project {
+  border: 4px solid #33ec05;
+  border-radius: 20px;
+  /* height: 350px; */
+  max-height: 350px;
+  margin: 15px 5px; /* Margin to space out vertically */
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0; /* Rounded corners on the top */
+}
+.btns {
+  display: flex;
+  justify-content: space-around;
+}
+.btns button {
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: #2ba8e2;
+  height: 25px;
+  width: 80px;
+  margin: 15px;
+  cursor: pointer;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .project {
+    /* height: 350px; */
+    max-height: 350px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .project {
+    /* height: 350px; */
+    max-height: 550px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .project {
+    /* height: 350px; */
+    max-height: 580px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  ...;
+} */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .main-head {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #3b1707;
+  }
+  .projects-cont {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    /* justify-items: center; */
+    column-gap: 20px;
+    row-gap: 20px;
+    /* margin: auto; */
+    /* border-radius: 20px; */
+    /* background-color: #afafaf; */
+  }
+  .project img {
+    height: 250px;
+    width: 430px;
+  }
+  .project {
+    border: 5px solid #0eeb63;
+    border-radius: 20px;
+    height: 350px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: space-around;
+  }
+  .btns button {
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: #2ba8e2;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+  }
+}
