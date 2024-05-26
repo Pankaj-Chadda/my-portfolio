@@ -16,7 +16,7 @@
   /* margin: ; */
 }
 .project {
-  border: 4px solid #33ec05;
+  border: 4px solid #40c71f;
   border-radius: 20px;
   /* height: 350px; */
   max-height: 350px;
@@ -37,7 +37,8 @@
 .btns button {
   font-weight: bold;
   font-size: 1.2rem;
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  border: none;
   border-radius: 6px;
   background-color: #2ba8e2;
   height: 25px;
@@ -51,6 +52,9 @@
     /* height: 350px; */
     max-height: 350px;
   }
+  .btns button {
+    border: none;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -59,6 +63,9 @@
     /* height: 350px; */
     max-height: 550px;
   }
+  .btns button {
+    border: none;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -66,6 +73,9 @@
   .project {
     /* height: 350px; */
     max-height: 580px;
+  }
+  .btns button {
+    border: none;
   }
 }
 
@@ -97,7 +107,6 @@
     width: 430px;
   }
   .project {
-    border: 5px solid #0eeb63;
     border-radius: 20px;
     height: 350px;
     margin-top: 20px;
@@ -113,7 +122,8 @@
   .btns button {
     font-weight: bold;
     font-size: 1.2rem;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    border: none;
     border-radius: 6px;
     background-color: #2ba8e2;
     height: 35px;

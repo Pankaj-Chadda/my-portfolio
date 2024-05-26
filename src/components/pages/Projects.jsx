@@ -12,7 +12,7 @@ const Projects = () => {
       title: "Box Office App",
       src: boxOffice,
       code: "https://github.com/Pankaj-Chadda/Box-Office-App",
-      demo: "https://worthless-waves.surge.sh/",
+      demo: "https://box-office-movies-app.surge.sh/",
     },
     {
       id: 2,

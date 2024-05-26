@@ -1,13 +1,13 @@
 .contact-cont {
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
+  border: none;
   width: 90%;
   height: 80%;
   margin: 30px auto;
   text-align: center;
   padding: 10px;
-  border: 2px solid #300d52;
+
   border-radius: 20px;
   background-color: #afafaf;
   font-weight: bold;
@@ -29,7 +29,7 @@ textarea {
   width: 80%;
   height: 2.2rem;
   margin: 3px auto;
-  border: 2px solid black;
+  border: none;
   border-radius: 12px;
   text-align: center;
   font-size: 1.2rem;
@@ -46,12 +46,13 @@ button {
   height: 30px;
   font-weight: bold;
   font-size: 1.2rem;
+  border: none;
   border-radius: 12px;
   background-color: #1b40a5;
   cursor: pointer;
 }
 button:hover {
-  background-color: #2ba8e2;
+  background-color: #145cc9;
 }
 .social {
   display: flex;
@@ -95,14 +96,11 @@ button:hover {
   .contact-cont {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
     width: 50%;
     margin: 15px auto;
     text-align: center;
     padding: 10px;
-    border: 2px solid #300d52;
     border-radius: 20px;
-    background-color: #afafaf;
     font-weight: bold;
   }
   .main-head {
@@ -121,7 +119,7 @@ button:hover {
     width: 60%;
     height: 2.2rem;
     margin: 3px auto;
-    border: 2px solid black;
+
     border-radius: 12px;
     text-align: center;
   }
@@ -134,12 +132,9 @@ button:hover {
     height: 30px;
     font-weight: bold;
     border-radius: 12px;
-    background-color: #1b40a5;
     cursor: pointer;
   }
-  button:hover {
-    background-color: #2ba8e2;
-  }
+
   .social {
     display: flex;
     flex-direction: row;

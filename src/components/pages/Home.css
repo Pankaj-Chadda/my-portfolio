@@ -22,7 +22,7 @@
   font-size: 1.2rem;
 }
 .hero-img img {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 25px;
   height: 350px;
   margin: 25px 0;
@@ -74,7 +74,7 @@
     background-color: #afafaf;
   }
   .hero-img img {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 25px;
     height: 350px;
   }
