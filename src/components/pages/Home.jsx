@@ -17,9 +17,8 @@ const Home = () => {
       <div className="profile">
         <h2 className="title">I am a Web Developer</h2>
         <p className="text">
-          I have 1.5 years of experience working in web development projects. I
-          love to work on web applications using technologies like React and
-          Django .
+          Hi, I'm Pankaj Chadda, a passionate and aspiring web developer eager
+          to create innovative and user-friendly web experiences. .
         </p>
         <div className="resume">
           <button onClick={handleDownload} className="resume-btn">
