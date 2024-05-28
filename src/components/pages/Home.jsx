@@ -18,7 +18,7 @@ const Home = () => {
         <h2 className="title">I am a Web Developer</h2>
         <p className="text">
           Hi, I'm Pankaj Chadda, a passionate and aspiring web developer eager
-          to create innovative and user-friendly web experiences. .
+          to create innovative and user-friendly web experiences.
         </p>
         <div className="resume">
           <button onClick={handleDownload} className="resume-btn">
